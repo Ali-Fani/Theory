@@ -1,3 +1,5 @@
 *.pdf
 *.zip
 */training/*
+3/qrcode.png
+.vscode/settings.json
