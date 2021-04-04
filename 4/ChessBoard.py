@@ -1,7 +1,7 @@
-x, y = [int(i) for i in str(input())]
+x, y = [int(s) for s in str(
+    input("Enter Two Numbers (Seprate with space) : ")).split(' ')]
 board = [["□"] * y for i in range(x)]
 for i in range(x):
-    board.append([])
     for j in range(y):
         if i % 2 == 0 and j % 2 == 0:
             board[i][j] = "■"

@@ -3,9 +3,9 @@ def is_factorial(n):
     while f < n:
         i += 1
         f *= i
+        print(f, i)
     return f == n
 
 
-check = is_factorial(int(input("Enter a number : ")))
-if check:
+if is_factorial(int(input("Enter a number : "))):
     print("Yes")
